@@ -37,12 +37,6 @@ class HomeScreen extends StatelessWidget {
             leading: TextButton(
                 onPressed: () {
                   showAlertDialog(context);
-                  // Navigator.of(context).pushAndRemoveUntil(
-                  //   MaterialPageRoute(
-                  //     builder: (context) => LoginPage(),
-                  //   ),
-                  //   (Route<dynamic> route) => false,
-                  // );
                 },
                 child: const Icon(Icons.logout_outlined)),
           ),
