@@ -14,16 +14,5 @@ class AboutScreen extends StatelessWidget {
           backgroundColor: Appcolor.red,
         ),
         body: Text("data"));
-    // const TextScroll(
-    //   'Aloha ',
-    //   mode: TextScrollMode.bouncing,
-    //   velocity: Velocity(pixelsPerSecond: Offset(150, 0)),
-    //   delayBefore: Duration(milliseconds: 500),
-    //   numberOfReps: 5,
-    //   pauseBetween: Duration(milliseconds: 50),
-    //   style: TextStyle(color: Colors.green),
-    //   textAlign: TextAlign.right,
-    //   selectable: true,
-    // ));
   }
 }
