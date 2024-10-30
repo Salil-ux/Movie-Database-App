@@ -12,7 +12,6 @@ class PopularMovieBloc extends Bloc<MovieEvent, MovieState> {
       emit(MovieLoading());
       try {
         final moviess = await movieRepository
-            //.fetchMovies('movie/popular?api_key=${ApiConfig.apiKey}');
             .fetchMovies(
                 'https://api.themoviedb.org/3/movie/popular?api_key=f9f4783f569fcd1104aaf0a401c35778');
         emit(MovieLoaded(moviess));
