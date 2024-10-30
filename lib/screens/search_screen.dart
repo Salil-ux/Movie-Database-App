@@ -1,37 +1,3 @@
-// import 'package:flutter/material.dart';
-//
-// class Search extends StatefulWidget {
-//   const Search({super.key});
-//
-//   @override
-//   State<Search> createState() => _SearchState();
-// }
-//
-// class _SearchState extends State<Search> {
-//   @override
-//   Widget build(BuildContext context) {
-//     return Padding(
-//       padding: const EdgeInsets.all(10.0),
-//       child: SearchAnchor(
-//         builder: (BuildContext context, SearchController controller) {
-//           return SearchBar(
-//             controller: controller,
-//             onTap: controller.openView,
-//             onChanged: (_) {
-//               controller.openView;
-//             },
-//             leading: Icon(Icons.search),
-//           );
-//         },
-//         suggestionsBuilder:
-//             (BuildContext context, SearchController controller) {
-//           return
-//             },
-//       ),
-//     );
-//   }
-// }
-
 import 'package:final2/screens/selectedmovie_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
