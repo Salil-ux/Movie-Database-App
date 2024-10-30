@@ -4,25 +4,6 @@ import 'movie_event.dart';
 import 'movie_state.dart';
 import '../repository/movie_repository.dart';
 
-// class PopularMovieBloc extends Bloc<MovieEvent, MovieState> {
-//   final MovieRepository repository;
-//
-//   PopularMovieBloc(this.repository) : super(MovieInitial());
-//
-//   @override
-//   Stream<MovieState> mapEventToState(MovieEvent event) async* {
-//     if (event is FetchMovies) {
-//       yield MovieLoading();
-//       try {
-//         final movies = await repository
-//             .fetchMovies('popular_movies'); // Use appropriate endpoint
-//         yield MovieLoaded(movies);
-//       } catch (e) {
-//         yield MovieError(e.toString());
-//       }
-//     }
-//   }
-// }
 class PopularMovieBloc extends Bloc<MovieEvent, MovieState> {
   final MovieRepository movieRepository;
 
