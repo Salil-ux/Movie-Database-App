@@ -40,16 +40,6 @@ class _HomeState extends State<Home> {
               child: const MoviePosterScreen(),
             ),
           ),
-          // const Text(
-          //   'Trending',
-          //   style: TextStyle(
-          //     fontSize: 24,
-          //     color: Colors.redAccent,
-          //     fontWeight: FontWeight.w500,
-          //   ),
-          //   textAlign: TextAlign.left,
-          // ),
-
           const SizedBox(height: 10),
           Text(
             'Trending',
