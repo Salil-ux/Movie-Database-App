@@ -16,16 +16,6 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Movie App',
       theme: ThemeData(textTheme: GoogleFonts.montserratTextTheme()),
-      // home: MultiBlocProvider(
-      //   providers: [
-      //     BlocProvider(create: (context) => NavigationBloc()),
-      //     BlocProvider(
-      //         create: (context) =>
-      //             PopularMovieBloc(movieRepository)..add(FetchMovies())),
-      //     BlocProvider(
-      //         create: (context) =>
-      //             MovieBloc(movieRepository)..add(FetchMovies())),
-      //   ],
       home: const HomePage(),
     );
   }
